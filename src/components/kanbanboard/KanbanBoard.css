@@ -1,0 +1,76 @@
+
+
+body {
+    background-color: rgb(0, 0, 50);
+    color: white;
+}
+.boards {
+    display: flex;
+}
+
+.board {
+    background: #141316;
+    border: 1px solid green;
+    border-radius: 4px;
+    margin: 16px;
+    margin-top: 32px;
+}
+
+.board h3 {
+    padding: 16px;
+    margin: 0;
+    color: green;
+}
+
+.dropzone {
+    padding: 16px;
+    min-width: 282px;
+    min-height: 200px;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px green;
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #1A1A1C;
+}
+
+.status {
+   width: 30px;
+   height: 8px;
+   background-color: gray; 
+   margin-bottom: 16px;
+   border-radius: 8px;
+}
+.status.green {
+    background: #23d2ac;
+}
+
+.status.blue {
+    background: blue;
+}
+
+.status.red {
+    background: red;
+}
+
+.highlight {
+    background-color: #FD951F11;
+}
+
+.card, .dropzone {
+    transition: .4s;
+}
+
+.is-dragging {
+   cursor: move;
+   opacity: 0.3;
+}
+
+.over {
+    background: #4CD13711;
+}
